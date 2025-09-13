@@ -1,9 +1,3 @@
-/**
- * Portfolio JavaScript
- * Author: Aditya Kumar
- * Description: Interactive functionality for portfolio website
- */
-
 'use strict';
 
 // ==============================================
@@ -448,7 +442,7 @@ const contactForm = {
         // Load EmailJS SDK dynamically
         this.loadEmailJSSDK().then(() => {
             // Initialize EmailJS with your Public Key
-            emailjs.init('-_47KxLj136nq6E0V'); // Replace with your actual EmailJS Public Key
+            emailjs.init('*********'); // Replace with your actual EmailJS Public Key
             this.bindEvents();
         }).catch(error => {
             console.error('Failed to load EmailJS SDK:', error);
@@ -493,7 +487,7 @@ const contactForm = {
             this.setSubmitState(submitBtn, 'loading');
             
             // Send email using EmailJS
-            await emailjs.send('service_w2e14kj', 'template_ffmcykr', {
+            await emailjs.send('********', '********', { //Replace With You Email Js Service and Template Id
                 from_name: data.name,
                 from_email: data.email,
                 subject: data.subject,
@@ -967,7 +961,7 @@ const chatbot = {
         const response = await fetch("https://openrouter.ai/api/v1/chat/completions", {
             method: "POST",
             headers: {
-                "Authorization": "Bearer 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",
+                "Authorization": "Bearer ************",   // Replace With Your Api Key
                 "Content-Type": "application/json"
             },
             body: JSON.stringify({
@@ -976,30 +970,7 @@ const chatbot = {
                     {
                         role: "system",
                         content: `
-You are Delta, a friendly AI assistant created by Aditya Kumar.
-Always greet users warmly and speak in a helpful, professional manner.
-
-About Aditya Kumar:
-- Co-Founder & CMO at Inscipe
-- Skills: Web Development, AI services, Custom Web Solutions, Video Editing, Thumbnail Making
-- Certified in HTML
-- Interests: Gaming, Watching Gaming Videos & Movies, Volleyball, Cricket, AI Technology
-- Future Goal: Robotics Engineer
-- Services: AI-powered services, development services, and digital products marketplace
-
-About Inscipe:
-- E-commerce platform for digital products
-- Founded by Aditya Kumar
-- Website: inscipe.shop
-- Offers various trendy products at very affordable prices.
-
-Your role:
-- Help users learn about Aditya's skills and projects
-- Provide information about Inscipe when relevant
-- Keep responses concise and engaging
-- Always identify yourself as Delta when asked
-- Be helpful and professional in all interactions
-- Response in short.
+// Here Add Your Own Prompt
                         `
                     },
                     { role: "user", content: prompt }
@@ -1104,4 +1075,5 @@ const app = new Portfolio();
 app.init();
 
 // Make app globally available for debugging
+
 window.portfolioApp = app;
