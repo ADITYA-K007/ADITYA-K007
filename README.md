@@ -1,6 +1,10 @@
 <h1 align="center">Hi 👋, I'm Aditya</h1>
 <h3 align="center">Co-founder of Inscipe • AI Developer • Young Visionary</h3>
 
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?size=22&duration=4000&color=00C2FF&center=true&vCenter=true&lines=AI+Engineer+in+the+Making;Founder+of+Inscipe+Shop;Open-Source+Lover;Always+Learning+Always+Building" alt="Typing SVG" />
+</p>
+
 - 👨‍💻 All of my projects are available at [https://aditya-kumar2.netlify.app/](https://aditya-kumar2.netlify.app/)
 
 - 📫 How to reach me **inscipe@gmail.com**
