@@ -5,7 +5,7 @@
 
 <!-- Typing Animation with Multiple Lines -->
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=800&color=00F7FF&center=true&vCenter=true&multiline=true&repeat=true&random=false&width=800&height=100&lines=Welcome+to+My+Digital+Universe+%F0%9F%8C%8C;Where+Code+Meets+Creativity+%E2%9C%A8;Building+Tomorrow's+Solutions+Today+%F0%9F%9A%80" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=800&color=00F7FF&center=true&vCenter=true&multiline=true&repeat=true&random=false&width=800&height=100&lines=Welcome+to+My+Digital+Universe+%F0%9F%8C%8C;Where+Code+Meets+Creativity+%E2%9C%A8" alt="Typing SVG" />
 </p>
 
 <!-- Animated Badges -->
